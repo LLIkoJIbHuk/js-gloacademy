@@ -9,9 +9,9 @@ let mainList = {
     open: false
 }
 
-mainList.shopGoods[0] = promt('Какой тип товара будем продавать?');
-mainList.shopGoods[1] = promt('Какой тип товара будем продавать?');
-mainList.shopGoods[2] = promt('Какой тип товара будем продавать?');
+mainList.shopGoods[0] = prompt('Какой тип товара будем продавать?');
+mainList.shopGoods[1] = prompt('Какой тип товара будем продавать?');
+mainList.shopGoods[2] = prompt('Какой тип товара будем продавать?');
 
 alert(mainList.budget / 30);
 
