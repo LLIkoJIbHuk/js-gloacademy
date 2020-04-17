@@ -1,3 +1,5 @@
+/*
+
 let money = prompt('Ваш бюджет?');
 let name =prompt('Название Вашего магазина');
 let time = 19;
@@ -36,3 +38,18 @@ if (time < 0){
 alert(mainList.budget / 30);
 
 console.log(mainList);
+
+*/
+
+//Callback
+
+function learnJS(lang, callback){
+    console.log('Я учу' + lang);
+    callback();
+}
+
+learnJS('JS', done);
+
+function done(){
+    console.log('Я прошел 3 урок');
+}
